@@ -29,7 +29,8 @@ classifiers=[
 Homepage = "https://github.com/amirreza8002/sorl-thumbnail-avif"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.9"
+django = ">=4.2"
 pillow-avif-plugin = "^1.4.6"
 pillow = "^11.0.0"
 sorl-thumbnail = "^12.11.0"
