@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "sorl-thumbnail-avif"
+version = "0.1.0"
+description = "sorl-thumbnail avif plugin"
+authors = ["amirreza <amir.rsf1380@gmail.com>"]
+license = "BSD-3-Caluse"
+readme = "README.md"
+classifiers=[
+    'Development Status :: 5 - Production/Stable',
+    'Environment :: Web Environment',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: BSD License',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Programming Language :: Python :: 3.13',
+    'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
+    'Topic :: Multimedia :: Graphics',
+    'Framework :: Django',
+    'Framework :: Django :: 4.2',
+    'Framework :: Django :: 5.0',
+    'Framework :: Django :: 5.1',
+]
+
+[tool.poetry.urls]
+Homepage = "https://github.com/amirreza8002/sorl-thumbnail-avif"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pillow-avif-plugin = "^1.4.6"
+pillow = "^11.0.0"
+sorl-thumbnail = "^12.11.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^4.0.1"
+black = "^24.10.0"
+ruff = "^0.8.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
