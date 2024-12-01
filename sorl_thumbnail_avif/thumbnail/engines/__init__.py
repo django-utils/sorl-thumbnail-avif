@@ -1,0 +1,1 @@
+from sorl_thumbnail_avif.thumbnail.engines.pil_engine import AvifEngine

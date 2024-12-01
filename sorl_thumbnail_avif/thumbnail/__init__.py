@@ -1,0 +1,1 @@
+from sorl_thumbnail_avif.thumbnail.base import AvifThumbnail
