@@ -2,6 +2,7 @@ from io import BytesIO
 from sorl.thumbnail.engines.pil_engine import Engine
 
 from PIL import Image, ImageFile
+from PIL.ImageFilter import GaussianBlur
 import pillow_avif  # noqa: F401
 
 
@@ -63,3 +64,6 @@ class AvifEngine(Engine):
             bf.close()
 
         return raw_data
+
+    def _blur(self, image, radius):
+        return image.filter(GaussianBlur(radius=radius))
