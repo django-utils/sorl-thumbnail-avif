@@ -37,4 +37,4 @@ class AvifThumbnail(ThumbnailBackend):
     def _get_thumbnail_filename(self, source, geometry_string, options):
         key = tokey(source.key, geometry_string, serialize(options))
         path = f"{key[:2]}{key[2:4]}{key}"
-        return f"{settings.THUMBNAIL_PREFIX}{path}.{EXTENSIONS[options["format"]]}"
+        return f"{settings.THUMBNAIL_PREFIX}{path}.{EXTENSIONS[options['format']]}"
