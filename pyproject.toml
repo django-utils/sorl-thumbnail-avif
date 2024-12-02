@@ -40,6 +40,8 @@ sorl-thumbnail = "^12.11.0"
 pre-commit = "^4.0.1"
 black = "^24.10.0"
 ruff = "^0.8.1"
+pytest = "^8.3.4"
+pytest-django = "^4.9.0"
 
 [build-system]
 requires = ["poetry-core"]
@@ -47,4 +49,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.ruff.lint.per-file-ignores]
 "__init__.py" = ["E402", "F401", "F403"]
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "tests.settings.pil"
 
