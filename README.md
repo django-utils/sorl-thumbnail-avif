@@ -4,6 +4,7 @@ a python package to add avif support to sorl-thumbnail.
 
 **note**: this package will get support until sorl-thumbnail supports avif, then it'll be archived.
 
+**nota2**: this package uses pillow.
 
 ### Installation
 
