@@ -21,6 +21,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+      - name: Install linux deps
+        run: sudo apt install -y imagemagick
 
       - name: set up python ${{ matrix.python-version }}
         uses: actions/setup-python@v5
