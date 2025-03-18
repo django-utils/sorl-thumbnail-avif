@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "sorl-thumbnail-avif"
-version = "0.1.0"
+version = "0.1.0.post1"
 description = "sorl-thumbnail avif plugin"
 authors = ["amirreza <amir.rsf1380@gmail.com>"]
 license = "BSD-3-Caluse"
@@ -26,7 +26,7 @@ classifiers=[
 ]
 
 [tool.poetry.urls]
-Homepage = "https://github.com/amirreza8002/sorl-thumbnail-avif"
+Homepage = "https://github.com/django-utils/sorl-thumbnail-avif"
 
 [tool.poetry.dependencies]
 python = ">=3.10"
