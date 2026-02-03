@@ -1,10 +1,8 @@
 # sorl thumbnail avif
 
+**Important:** sorl thubmnail now has built-in avif support, please use that instead.
+
 a python package to add avif support to sorl-thumbnail.
-
-**note**: this package will get support until sorl-thumbnail supports avif, then it'll be archived.
-
-**nota2**: this package uses pillow.
 
 ### Installation
 
