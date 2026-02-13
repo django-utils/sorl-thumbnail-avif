@@ -3,7 +3,6 @@ from sorl.thumbnail.conf import settings
 from sorl.thumbnail.conf import defaults as default_settings
 from sorl.thumbnail.helpers import serialize, tokey
 
-
 EXTENSIONS = {
     "JPEG": "jpg",
     "PNG": "png",
